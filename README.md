@@ -1,7 +1,7 @@
-DevOps RPM Build
-==================
+PACKAGE RPM Build
+=================
 
-This repository stores the RPM specifications used by DevOps to build software or libraries installed on server owned by DevOps.
+This repository stores the RPM specifications to build software or libraries.
 
 Guideline
 ------------------
