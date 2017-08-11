@@ -1,0 +1,15 @@
+[Unit]
+Description=Atlassian Bamboo Service
+Documentation=http://www.atlassian.com
+After=network.target
+
+[Service]
+Type=forking
+Environment="JAVA_HOME=/usr/java/jdk1.8.0_66x64"
+ExecStart=/opt/atlassian/bamboo/bin/start-bamboo.sh
+ExecStop=/opt/atlassian/bamboo/bin/stop-bamboo.sh
+User=doadmin
+
+[Install]
+WantedBy=multi-user.target
+
