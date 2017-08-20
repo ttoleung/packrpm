@@ -1,7 +1,7 @@
 PACKAGE RPM Build
 =================
 
-This repository stores the RPM specifications to build software or libraries.
+This repository stores the RPM specifications to build software or libraries. Read basics of how to paackage RPM: https://www.ibm.com/developerworks/library/l-rpm1/
 
 Guideline
 ------------------
